@@ -1,4 +1,4 @@
-*, *::after, *::before {
+r*, *::after, *::before {
     box-sizing: border-box;
 }
 
@@ -106,10 +106,14 @@ li {
 }
 
 .card-picture {
+    background: url(img/Burger_Mobile_mini.jpg);
+    height: 107px;
+    width: 88px;
+    padding-right: 70px;
     margin-left: 20px;
     margin-right: 10px;
-    margin-top: 20px;
-    align-self: flex-end;
+    margin-top: 130px;
+    align-self: center;
 }
 
 .card-body {
@@ -137,6 +141,11 @@ li {
     font-family: "source sans pro", sans-serif;
     font-size: 1rem;
     color: #C89446;
+}
+
+.plus {
+    display: inline-block;
+    margin-top: -2px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -177,5 +186,18 @@ li {
     .specialities {
         font-size: 1.5rem;
         letter-spacing: 4px;
+    }
+    .card {
+        height: 455px;
+        width: 919px;
+        margin: 0 auto;
+        transform: translateY(-22px);
+    }
+    .card-body {
+        margin-left: 95px;
+    }
+    .card-picture {
+        background: url(img/Burger_Mobile_mini.jpg);
+        transform: translate(31px, 31px);
     }
 }
