@@ -190,14 +190,25 @@ li {
     .card {
         height: 455px;
         width: 919px;
-        margin: 0 auto;
-        transform: translateY(-22px);
+        margin-top: -30px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .card-body {
+        width: 445px;
+        height: 269px;
         margin-left: 95px;
     }
     .card-picture {
-        background: url(img/Burger_Mobile_mini.jpg);
-        transform: translate(31px, 31px);
+        background: url(img/burger_desktop.jpg);
+        height: 425px;
+        width: 350px;
+        padding: 0px;
+        margin: 0;
+        border: solid 2px #C89446;
+        border-radius: 2px;
+        }
     }
-}
