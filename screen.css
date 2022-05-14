@@ -121,19 +121,23 @@ li {
     margin: 20px 25px 0 20px;
 }
 
-.card-body-title {
+.card-body-discover {
     font-family: "Pinyon Script", serif;
     font-size: 2.5rem;
     color: #C89446;
     width: 100px;
 }
 
-.card-body-title2 {
+.card-body-gastronomy {
     font-family: "source sans pro", sans-serif;
     font-size: 1.75rem;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
+    color: #000;
+}
+.card-body-paragraph{
+    color: #000;
 }
 
 .card-body-btn {
@@ -205,30 +209,46 @@ li {
     .card {
         height: 455px;
         width: 919px;
-        margin-top: -30px;
+        margin-top: -20px;
         margin-left: auto;
         margin-right: auto;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         position: relative;
     }
-    .card-body {
+    .card-body-left {
         width: 445px;
         height: 269px;
         margin-left: 94px;
         margin-top: 0;
     }
-    .card-picture {
+
+    .card-body-right{
+        width: 445px;
+        height: 269px;
+        margin-right: 94px;
+        margin-top: 0;
+    }
+    .card-picture-left {
         background: url(img/burger_desktop.jpg);
         height: 425px;
         width: 350px;
-        padding: 0px;
-        margin: 0;
-        transform: translate(25px, 25px);
+        padding: 0;
+        margin: -30px 0 0 0;
+        transform: translate(30px,30px);
         z-index: 2;
     }
-    .box {
+     .card-picture-right {
+        background: url(img/crusted-chicken.jpg);
+        height: 425px;
+        width: 350px;
+        padding: 0;
+        margin: -30px 0 0 0;
+        transform: translate(-30px,30px);
+        z-index: 2;
+    }
+    .box-left {
         content: '';
         height: 425px;
         width: 350px;
@@ -236,14 +256,25 @@ li {
         border-radius: 2px;
         position: absolute;
         top: 0;
-        left: 0;
+        left:0;
         z-index: 1;
     }
-    .card-body-title {
+     .box-right {
+        content: '';
+        height: 425px;
+        width: 350px;
+        border: solid 2px #C89446;
+        border-radius: 2px;
+        position: absolute;
+        top: 0;
+        right:0;
+        z-index: 1;
+    }
+    .card-body-discover {
         margin-top: 0;
         padding-top: 0;
     }
-    .card-body-title2{
+    .card-body-gastronomy{
         margin-top: -22px;
         padding-top: 0;
     }
