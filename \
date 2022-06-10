@@ -1,0 +1,279 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    color: #FFFFFF;
+    font-family: "source sans pro", sans-serif;
+    line-height: 1.625;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #C89446;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    background:
+            linear-gradient(180deg, rgba(0,0,0,0.92), rgba(54,54,54,0.5) 39.24%, rgba(28,28,28,0.4)),
+            url("img/eggs.jpg") center center / cover no-repeat;
+}
+
+.nav {
+    font-size: 0.875rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav-menu a {
+    margin-top: 20px;
+}
+
+.nav-title {
+    letter-spacing: 2px;
+}
+
+.header {
+    padding: 33px 20px;
+}
+
+.nav-item {
+    display: inline-block;
+    letter-spacing: 2px;
+    margin-left: 33px;
+}
+
+.reservation {
+    border: solid 1px #C89446;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 7px 10px;
+    transition-property: color, background-color;
+}
+
+.reservation:hover {
+    background-color: #C89446;
+    color: #FFFFFF ;
+}
+
+.baseline {
+    line-height: 1;
+    margin: 50px 0 70px 0;
+    text-align: center;
+}
+
+.welcome {
+    color: #C89446;
+    font-family: "Pinyon Script", serif;
+    font-size: 2.2rem;
+}
+
+.big-title {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.specialities {
+    display: block;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.card {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-picture {
+    align-self: center;
+    background: url(img/Burger_Mobile_mini.jpg);
+    height: 107px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 130px;
+    padding-right: 70px;
+    width: 88px;
+}
+
+.card-body {
+    color: #000;
+    margin: 20px 25px 0 20px;
+}
+
+.card-body-subtitle{
+    color: #C89446;
+    font-family: "Pinyon Script", serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.card-body-title{
+    color: #000;
+    font-family: "source sans pro", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.card-body-paragraph{
+    color: #000;
+}
+
+.card-body-btn {
+    color: #C89446;
+    display: inline-block;
+    font-family: "source sans pro", sans-serif;
+    font-size: 1rem;
+    margin-top: 39px;
+}
+
+.card-body-btn::after{
+    background: url("img/Shape.png") center center / 5px 9px no-repeat;
+    color: #C89446;
+    content: '';
+    display: inline-block;
+    height: 9px;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 5px;
+}
+
+.stroke {
+    border: solid 1px #C89446;
+    content: '';
+    height: 2px;
+    margin-bottom: 24px;
+    width: 24px;
+}
+
+@media only screen and (min-width: 964px) {
+    html {
+        font-size: 16px;
+    }
+    body {
+        background: linear-gradient(to top,rgba(255,255,255,0.6),rgba(255,255,255,0.6))
+    }
+    .nav {
+        align-items: baseline;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 1110px;
+    }
+    .nav-title a{
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    .reservation {
+        margin-top: 0;
+    }
+    .baseline {
+        padding: 98px 0 170px;
+    }
+    .welcome {
+        font-size: 3.75rem;
+    }
+    .big-title {
+        font-size: 68px;
+        letter-spacing: 13px;
+        margin-top: 9px;
+    }
+    .specialities {
+        font-size: 1.5rem;
+        letter-spacing: 4px;
+    }
+    .card {
+        align-items: center;
+        display: flex;
+        height: 455px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -20px;
+        position: relative;
+        width: 919px;
+    }
+    .card-body-left {
+        height: 269px;
+        margin-left: 94px;
+        margin-top: 0;
+        width: 445px;
+    }
+
+    .card-body-right{
+        height: 269px;
+        margin-right: 94px;
+        margin-top: 0;
+        width: 445px;
+    }
+    .card-picture-left {
+        background: url(img/burger_desktop.jpg);
+        height: 425px;
+        margin: -30px 0 0 0;
+        padding: 0;
+        transform: translate(30px,30px);
+        width: 350px;
+        z-index: 2;
+    }
+     .card-picture-right {
+        background: url(img/crusted-chicken.jpg);
+        height: 425px;
+        margin: -30px 0 0 0;
+        padding: 0;
+        transform: translate(-30px,30px);
+        width: 350px;
+        z-index: 2;
+    }
+    .box-left {
+        border: solid 2px #C89446;
+        border-radius: 2px;
+        content: '';
+        height: 425px;
+        left:0;
+        position: absolute;
+        top: 0;
+        width: 350px;
+        z-index: 1;
+    }
+     .box-right {
+        border: solid 2px #C89446;
+        border-radius: 2px;
+        content: '';
+        height: 425px;
+        position: absolute;
+        right:0;
+        top: 0;
+        width: 350px;
+        z-index: 1;
+    }
+    .card-body-subtitle{
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .card-body-title{
+        margin-top: -22px;
+        padding-top: 0;
+    }
+}
