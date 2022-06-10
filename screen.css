@@ -118,7 +118,6 @@ li {
 
 .card-body {
     color: #000;
-    margin: 20px 25px 0 20px;
 }
 
 .card-body-subtitle{
@@ -207,6 +206,7 @@ li {
     .card {
         align-items: center;
         display: flex;
+        flex-direction: row;
         height: 455px;
         justify-content: space-between;
         margin-left: auto;
@@ -215,43 +215,43 @@ li {
         position: relative;
         width: 919px;
     }
-    .card-body-left {
+    .card-body {
         height: 269px;
-        margin-left: 94px;
-        margin-top: 0;
         width: 445px;
     }
 
-    .card-body-right{
-        height: 269px;
-        margin-right: 94px;
-        margin-top: 0;
-        width: 445px;
+    .card-body-left{
+        margin-left: 94px;
     }
+
+    .card-body-right {
+        margin-right: 94px;
+    }
+
+    .card-picture {
+        height: 425px;
+        margin: -30px 0 0 0;
+        padding: 0;
+        width: 350px;
+        z-index: 2;
+    }
+
     .card-picture-left {
         background: url(img/burger_desktop.jpg);
-        height: 425px;
-        margin: -30px 0 0 0;
-        padding: 0;
         transform: translate(30px,30px);
-        width: 350px;
-        z-index: 2;
-    }
+   }
+
      .card-picture-right {
         background: url(img/crusted-chicken.jpg);
-        height: 425px;
-        margin: -30px 0 0 0;
-        padding: 0;
+        order: 2;
         transform: translate(-30px,30px);
-        width: 350px;
-        z-index: 2;
     }
+
     .box-left {
         border: solid 2px #C89446;
         border-radius: 2px;
         content: '';
         height: 425px;
-        left:0;
         position: absolute;
         top: 0;
         width: 350px;
