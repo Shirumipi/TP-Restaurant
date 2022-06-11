@@ -103,6 +103,7 @@ li {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 70px;
 }
 
 .card-picture {
@@ -138,6 +139,7 @@ li {
 }
 .card-body-paragraph{
     color: #000;
+    margin-bottom: 200px;
 }
 
 .card-body-btn {
@@ -171,9 +173,22 @@ li {
     html {
         font-size: 16px;
     }
+
     body {
         background: linear-gradient(to top,rgba(255,255,255,0.6),rgba(255,255,255,0.6))
     }
+
+    .main {
+        position: relative;
+    }
+
+    .oranges {
+        margin-top: 20px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
     .nav {
         align-items: baseline;
         display: flex;
@@ -181,40 +196,45 @@ li {
         margin: 0 auto;
         max-width: 1110px;
     }
+
     .nav-title a{
         display: inline-block;
         margin-bottom: 0;
     }
+
     .reservation {
         margin-top: 0;
     }
+
     .baseline {
         padding: 98px 0 170px;
     }
+
     .welcome {
         font-size: 3.75rem;
     }
+
     .big-title {
         font-size: 68px;
         letter-spacing: 13px;
         margin-top: 9px;
     }
+
     .specialities {
         font-size: 1.5rem;
         letter-spacing: 4px;
     }
+
     .card {
         align-items: center;
         display: flex;
-        flex-direction: row;
         height: 455px;
         justify-content: space-between;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: -20px;
+        margin: -20px auto 90px;
         position: relative;
         width: 919px;
     }
+
     .card-body {
         height: 269px;
         width: 445px;
@@ -245,6 +265,12 @@ li {
         background: url(img/crusted-chicken.jpg);
         order: 2;
         transform: translate(-30px,30px);
+    }
+
+     .card-fruit {
+        position: absolute;
+        right: 0;
+        top: 0;
     }
 
     .box-left {
