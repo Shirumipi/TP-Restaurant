@@ -137,17 +137,13 @@ li {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-.card-body-paragraph{
-    color: #000;
-    margin-bottom: 200px;
-}
 
 .card-body-btn {
     color: #C89446;
     display: inline-block;
     font-family: "source sans pro", sans-serif;
     font-size: 1rem;
-    margin-top: 39px;
+    margin-top: 24px;
 }
 
 .card-body-btn::after{
@@ -169,6 +165,40 @@ li {
     width: 24px;
 }
 
+.menu {
+   display: block;
+   height: 924px;
+   margin: 20px auto 80px;
+   position: relative;
+   width: 1187px;
+}
+
+.menu-card {
+    height: 191px;
+    left: 277.5px;
+    position: absolute;
+    right: auto;
+    width: 640px;
+}
+
+.menu-stroke {
+    border: solid 1px #C89446;
+    content: '';
+    display: inline-block;
+    height: 2px;
+    left: 308px;
+    position: absolute;
+    width: 24px;
+}
+
+.menu-title {
+    color: #C89446;
+    font-family: "Pinyon Script", serif;
+    font-size: 2.5rem;
+    padding-top: 16px;
+    text-align: center;
+}
+
 @media only screen and (min-width: 600px) {
     html {
         font-size: 16px;
@@ -187,6 +217,12 @@ li {
         position: absolute;
         right: 0;
         top: 0;
+    }
+
+    .spices {
+        left: 0;
+        position: absolute;
+        top: 33%;
     }
 
     .nav {
@@ -261,16 +297,10 @@ li {
         transform: translate(30px,30px);
    }
 
-     .card-picture-right {
+    .card-picture-right {
         background: url(img/crusted-chicken.jpg);
         order: 2;
         transform: translate(-30px,30px);
-    }
-
-     .card-fruit {
-        position: absolute;
-        right: 0;
-        top: 0;
     }
 
     .box-left {
@@ -283,7 +313,8 @@ li {
         width: 350px;
         z-index: 1;
     }
-     .box-right {
+
+    .box-right {
         border: solid 2px #C89446;
         border-radius: 2px;
         content: '';
@@ -294,11 +325,14 @@ li {
         width: 350px;
         z-index: 1;
     }
-    .card-body-subtitle{
+
+     .card-body-subtitle{
         margin-top: 0;
         padding-top: 0;
     }
+
     .card-body-title{
+        margin-bottom: 10px;
         margin-top: -22px;
         padding-top: 0;
     }
