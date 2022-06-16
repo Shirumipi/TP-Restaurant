@@ -209,9 +209,40 @@ li {
 }
 
 .menu-body {
-    line-height: 1.625;
-    font-family: "Source Sans Pro", serif;
     color: var(--paragraph);
+    font-family: "Source Sans Pro", serif;
+    line-height: 1.625;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.ingredients {
+    text-align: center;
+    margin-bottom: 42px;
+    padding-left: 0;
+    position: relative;
+}
+
+.ingredients li {
+    color: #383838;
+    display: inline-block;
+    font-family: "Source Sans Pro";
+    letter-spacing: 1px;
+    margin-right: 65px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ingredients li:first-child {
+    margin-left: 0;
+}
+
+.ingredients li:last-child {
+    margin-right: 0;
+}
+
+.ingredients .active {
+    border-bottom: 2px solid var(--main-color);
 }
 
 @media only screen and (min-width: 600px) {
