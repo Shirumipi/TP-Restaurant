@@ -30,10 +30,16 @@ a:hover {
 
 p {
     color: var(--paragraph);
+    margin: 0;
+}
+
+ul {
+    margin: 0;
 }
 
 li {
     list-style-type: none;
+    margin: 0;
 }
 
 .header {
@@ -176,8 +182,8 @@ li {
 
 .menu {
    display: block;
-   height: 924px;
-   margin: 20px auto 80px;
+   height: 923px;
+   margin: 20px auto 0;
    position: relative;
    width: 1187px;
 }
@@ -200,12 +206,24 @@ li {
     width: 24px;
 }
 
-.menu-title {
+.menu-subtitle {
     color: var(--main-color);
     font-family: "Pinyon Script", serif;
     font-size: 2.5rem;
     padding-top: 16px;
     text-align: center;
+}
+
+.menu-title {
+    color: #000;
+    font-family: "source sans pro", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    margin-top: -20px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .menu-body {
@@ -217,24 +235,27 @@ li {
 }
 
 .ingredients {
-    text-align: center;
-    margin-bottom: 42px;
-    padding-left: 0;
+    display: block;
+    height: 24px;
+    left: 11%;
+    margin-bottom: 0;
+    padding: 0;
     position: relative;
+    right: auto;
+    text-align: left;
+    width: 502px;
 }
 
 .ingredients li {
     color: #383838;
     display: inline-block;
     font-family: "Source Sans Pro";
+    font-size: 1rem;
+    font-weight: 600;
     letter-spacing: 1px;
     margin-right: 65px;
     text-decoration: none;
     text-transform: uppercase;
-}
-
-.ingredients li:first-child {
-    margin-left: 0;
 }
 
 .ingredients li:last-child {
@@ -243,6 +264,126 @@ li {
 
 .ingredients .active {
     border-bottom: 2px solid var(--main-color);
+}
+
+.square {
+    border: 1px solid var(--main-color);
+    content: '';
+    display: block;
+    height: 425px;
+    left: 108px;
+    position: relative;
+    right: auto;
+    top: 130px;
+    transform: rotate(45deg);
+    width: 425px;
+    z-index: 0;
+}
+
+.menu-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    left: 0;
+    margin-bottom: 72px;
+    position: relative;
+    top: 0;
+}
+
+.menu-item {
+    display: flex;
+    height: 170px;
+    margin-left: 50px;
+    position: absolute;
+    width: 553px;
+}
+
+.menu-item-left{
+    left: 0;
+}
+
+.menu-item-right{
+    right:0;
+}
+
+.menu-item-upper{
+    top: 395px;
+}
+
+.menu-item-lower{
+    top: 699px;
+}
+
+.menu-picture-1 {
+    background: url(img/crusted-chicken-small.jpg) no-repeat ;
+    height: 160px;
+    margin-left: 20px;
+    margin-right: 32px;
+    width: 160px;
+}
+
+.menu-picture-2 {
+    background: url(img/bobun-light-square.jpg) no-repeat ;
+    height: 160px;
+    margin-left: 32px;
+    margin-right: 20px;
+    order: 2;
+    width: 160px;
+}
+
+.menu-picture-3 {
+    background: url(img/poisson-square.jpg) no-repeat ;
+    height: 160px;
+    margin-left: 20px;
+    margin-right: 32px;
+    width: 160px;
+}
+
+.menu-picture-4 {
+    background: url(img/paella-square.jpg) no-repeat ;
+    height: 160px;
+    margin-left: 32px;
+    margin-right: 20px;
+    order: 2;
+    width: 160px;
+}
+
+.menu-item-title {
+    color: #383838;
+    font-family: "Source Sans Pro", serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.menu-item-content {
+    font-size: 0.875rem;
+    height: 170px;
+    text-align: left;
+    width: 297px;
+}
+
+.menu-item-content-left {
+    text-align: left;
+}
+
+.menu-item-content-right {
+    text-align: right;
+}
+
+.menu-item-price {
+    color: var(--main-color);
+    font-family: "Pinyon Script";
+    font-size: 40px;
+    margin-top: 7px;
+}
+
+.menu-item-title, .para {
+    background-color: #FFF;
+    z-index: 10;
+}
+
+.para {
+    padding-bottom: 9px;
 }
 
 @media only screen and (min-width: 600px) {
