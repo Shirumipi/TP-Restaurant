@@ -386,18 +386,35 @@ li {
 }
 
 .card-chef {
+    display: flex;
+    justify-content: space-between;
     height: 549px;
     margin-top: 70px;
     width: 1440px;
+    border: solid 1px red;
 }
 
 .card-chef-text {
     height: 349px;
-    margin: 123px 0 0 165px;
+    margin: 123px 39px 77px 165px;
     position: relative;
     width: 716px;
-    background-color: red;
+}
 
+.card-chef-picture {
+    background: url(img/chef.png);
+    height: 543px;
+    width: 395px;
+    margin-right: 166px;
+}
+
+.card-chef-signature {
+    background: url(img/signature.png);
+    bottom: -60px;
+    height: 111px;
+    position: absolute;
+    right: -90px;
+    width: 181px;
 }
 
 @media only screen and (min-width: 600px) {
