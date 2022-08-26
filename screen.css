@@ -387,17 +387,16 @@ li {
 
 .card-chef {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height: 549px;
-    margin-top: 70px;
     position: absolute;
-    width: 1440px;
-    border: solid 1px red;
+    vertical-align: center;
+    width: 100%;
 }
 
 .card-chef-text {
     height: 349px;
-    margin: 123px 39px 77px 165px;
+    margin: 165px 39px 77px 165px;
     position: relative;
     width: 716px;
     font-size: 16px;
@@ -407,8 +406,10 @@ li {
 .card-chef-picture {
     background: url(img/chef.png);
     height: 543px;
+    position: relative;
+    top: 50px;
     width: 395px;
-    margin-right: 166px;
+    z-index: 1;
 }
 
 .card-chef-signature {
@@ -416,8 +417,9 @@ li {
     height: 111px;
     position: absolute;
     width: 181px;
-    bottom: 200px;
-    right: 300px;
+    bottom: -22px;
+    right: -185px;
+    z-index: 2;
 }
 
 @media only screen and (min-width: 600px) {
