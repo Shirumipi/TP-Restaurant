@@ -390,6 +390,7 @@ li {
     justify-content: space-between;
     height: 549px;
     margin-top: 70px;
+    position: absolute;
     width: 1440px;
     border: solid 1px red;
 }
@@ -399,6 +400,8 @@ li {
     margin: 123px 39px 77px 165px;
     position: relative;
     width: 716px;
+    font-size: 16px;
+    flex-shrink: 0;
 }
 
 .card-chef-picture {
@@ -410,11 +413,11 @@ li {
 
 .card-chef-signature {
     background: url(img/signature.png);
-    bottom: -60px;
     height: 111px;
     position: absolute;
-    right: -90px;
     width: 181px;
+    bottom: 200px;
+    right: 300px;
 }
 
 @media only screen and (min-width: 600px) {
