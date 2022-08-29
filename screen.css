@@ -298,11 +298,11 @@ li {
 }
 
 .menu-item-left{
-    left: 43px;
+    left: 38px;
 }
 
 .menu-item-right{
-    right:-31px;
+    right:-25px;
 }
 
 .menu-item-upper{
@@ -310,7 +310,7 @@ li {
 }
 
 .menu-item-lower{
-    top: 678px;
+    top: 670px;
 }
 
 .menu-picture-1 {
@@ -387,11 +387,10 @@ li {
     display: flex;
     justify-content: center;
     height: 549px;
-    left: 408px;
     margin: 0;
     padding: 0;
     position: absolute;
-    width: 1110px;
+    width: 100%;
 }
 
 .card-chef-text {
