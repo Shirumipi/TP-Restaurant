@@ -293,31 +293,29 @@ li {
 .menu-item {
     display: flex;
     height: 170px;
-    margin-left: 50px;
     position: absolute;
     width: 553px;
 }
 
 .menu-item-left{
-    left: 0;
+    left: 43px;
 }
 
 .menu-item-right{
-    right:0;
+    right:-31px;
 }
 
 .menu-item-upper{
-    top: 395px;
+    top: 405px;
 }
 
 .menu-item-lower{
-    top: 699px;
+    top: 678px;
 }
 
 .menu-picture-1 {
     background: url(img/crusted-chicken-small.jpg) no-repeat ;
     height: 160px;
-    margin-left: 20px;
     margin-right: 32px;
     width: 160px;
 }
@@ -334,7 +332,6 @@ li {
 .menu-picture-3 {
     background: url(img/poisson-square.jpg) no-repeat ;
     height: 160px;
-    margin-left: 20px;
     margin-right: 32px;
     width: 160px;
 }
@@ -353,12 +350,12 @@ li {
     font-family: "Source Sans Pro", serif;
     font-size: 18px;
     font-weight: 700;
+    letter-spacing: 1px;
 }
 
 .menu-item-content {
     font-size: 0.875rem;
     height: 170px;
-    text-align: left;
     width: 297px;
 }
 
@@ -378,24 +375,28 @@ li {
 
 .menu-item-title, .para {
     background-color: #FFF;
-    z-index: 10;
 }
 
 .para {
+    font-size: 0.875rem;
     padding-bottom: 9px;
+    line-height: 24px;
 }
 
 .card-chef {
     display: flex;
     justify-content: center;
     height: 549px;
+    left: 408px;
+    margin: 0;
+    padding: 0;
     position: absolute;
-    width: 100%;
+    width: 1110px;
 }
 
 .card-chef-text {
     height: 349px;
-    margin: 165px 39px 77px 103px;
+    margin: 165px 39px 77px 0;
     position: relative;
     width: 716px;
     font-size: 16px;
@@ -403,11 +404,11 @@ li {
 }
 
 .card-chef-picture {
-    background: url(img/chef.png);
-    height: 543px;
+    background: url(img/chef2.png) no-repeat;
+    height: 522px;
     position: relative;
-    top: 50px;
-    width: 395px;
+    top: 96px;
+    width: 354px;
     z-index: 1;
 }
 
@@ -416,9 +417,18 @@ li {
     height: 111px;
     position: absolute;
     width: 181px;
-    bottom: -22px;
-    right: -185px;
+    bottom: -48px;
+    right: -165px;
     z-index: 2;
+}
+
+.card-chef-text a {
+    margin-top: 61px;
+}
+
+.secondPara {
+    display: inline-block;
+    margin-top: 15px;
 }
 
 @media only screen and (min-width: 600px) {
