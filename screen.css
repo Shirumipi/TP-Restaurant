@@ -389,7 +389,7 @@ li {
     height: 549px;
     margin: 0;
     padding: 0;
-    position: absolute;
+    position: relative;
     width: 100%;
 }
 
@@ -428,6 +428,28 @@ li {
 .secondPara {
     display: inline-block;
     margin-top: 15px;
+}
+
+.reservation-form {
+    background: linear-gradient(180deg, rgba(0,0,0,0.92), rgba(36,36,36,0.5)),
+                url(img/reservation.jpg) center center / cover no-repeat;
+    height: 600px;
+    margin-top: 70px;
+    width: 1440px;
+}
+
+.form-container {
+    height: 167px;
+    width: 640px;
+    text-align: center;
+}
+
+.reservation-form form-container stroke, .card-body-subtitle {
+    text-align: center;
+}
+
+.reservation-form .card-body-title {
+    color: #FFF;
 }
 
 @media only screen and (min-width: 600px) {
