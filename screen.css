@@ -441,6 +441,7 @@ li {
 .form-container {
     height: 167px;
     margin: 0 auto 64px;
+    padding-top: 97px;
     width: 640px;
     text-align: center;
 }
@@ -450,6 +451,12 @@ li {
 	position: relative;
 	top:0;
 	left: -42px;
+}
+
+
+.reservation-form, .form-container .stroke {
+	margin:70px auto 0;
+
 }
 
 .reservation-form .card-body-title {
