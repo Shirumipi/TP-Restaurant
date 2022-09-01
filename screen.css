@@ -434,18 +434,22 @@ li {
     background: linear-gradient(180deg, rgba(0,0,0,0.92), rgba(36,36,36,0.5)),
                 url(img/reservation.jpg) center center / cover no-repeat;
     height: 600px;
-    margin-top: 70px;
-    width: 1440px;
+    margin: 70px auto 0;
+    width: 100%;
 }
 
 .form-container {
     height: 167px;
+    margin: 0 auto 64px;
     width: 640px;
     text-align: center;
 }
 
-.reservation-form form-container stroke, .card-body-subtitle {
-    text-align: center;
+.reservation-form .form-container .card-body-subtitle {
+	margin: 0 auto;
+	position: relative;
+	top:0;
+	left: -42px;
 }
 
 .reservation-form .card-body-title {
