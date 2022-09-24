@@ -467,19 +467,45 @@ li {
 .form-form {
 	display: flex;
 	justify-content: center;
-	padding-top: 64px;
+	padding-top: 120px;
 	position: relative;
 	width: 100%;
 }
 
 .reservation-form input{
+		color: #FFF;
 		margin-right: 30px;
 		padding: 16px;
 		width: 255px;
 		height: 40px;
 		text-transform: uppercase;
+		border-width: 1px;
+		border-radius: 2px;
+	
 	}
 
+.focus {
+		background-color: rgba(255,255,255,0.1);
+		border-color: var(--main-color);
+		outline: none;
+}
+
+input::placeholder{
+		color: #FFF;
+		opacity: 1;
+}
+
+#persons, #datetime {
+		background-color: rgba(255,255,255,0);
+		border-color: var(--paragraph);
+		outline: none;
+}
+
+
+input::autofocus {
+		border-color: var(--main-color);
+}
+	
 @media only screen and (min-width: 600px) {
     html {
         font-size: 16px;
