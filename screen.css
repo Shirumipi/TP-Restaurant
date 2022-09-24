@@ -465,13 +465,16 @@ li {
 }
 
 .form-form {
-	margin-left: 20%;
+	display: flex;
+	justify-content: center;
 	padding-top: 64px;
+	position: relative;
+	width: 100%;
 }
 
-.form-form input{
-		display: inline-block;
+.reservation-form input{
 		margin-right: 30px;
+		padding: 16px;
 		width: 255px;
 		height: 40px;
 		text-transform: uppercase;
