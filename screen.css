@@ -481,8 +481,12 @@ li {
 		text-transform: uppercase;
 		border-width: 1px;
 		border-radius: 2px;
-	
+		letter-spacing: 2px;
 	}
+
+.reservation-form input:last-child{
+	  margin-right: 0;
+}
 
 .focus {
 		background-color: rgba(255,255,255,0.1);
@@ -490,9 +494,13 @@ li {
 		outline: none;
 }
 
-input::placeholder{
+.reservation-form input::placeholder{
 		color: #FFF;
 		opacity: 1;
+}
+
+.reservation-form input::placeholder::after{
+		content: "123";
 }
 
 #persons, #datetime {
