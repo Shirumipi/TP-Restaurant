@@ -482,6 +482,9 @@ li {
 		border-width: 1px;
 		border-radius: 2px;
 		letter-spacing: 2px;
+		background: url(img/select.png) 10px 5px no-repeat;
+		background-position-x: 94%;
+	  background-position-y: 20px;
 	}
 
 .reservation-form input:last-child{
@@ -497,10 +500,6 @@ li {
 .reservation-form input::placeholder{
 		color: #FFF;
 		opacity: 1;
-}
-
-.reservation-form input::placeholder::after{
-		content: "123";
 }
 
 #persons, #datetime {
