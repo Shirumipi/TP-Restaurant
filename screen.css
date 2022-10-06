@@ -435,8 +435,7 @@ li {
                 url(img/reservation.jpg) center center / cover no-repeat;
     height: 600px;
     margin: 70px auto 0;
-    width: 100%;
-}
+    width: 1 0 0}
 
 .form-container {
     height: 167px;
@@ -455,7 +454,6 @@ li {
 
 
 .reservation-form, .form-container .stroke {
-	/*margin:59px auto 0;*/
 	margin: 0 auto;
 
 }
@@ -465,11 +463,12 @@ li {
 }
 
 .form-form {
-	display: flex;
-	justify-content: center;
-	padding-top: 120px;
-	position: relative;
-	width: 100%;
+		display: flex;
+		justify-content: center;
+		padding-top: 120px;
+		position: relative;
+		width: 100%;
+		margin-bottom: 64px;
 }
 
 .reservation-form input{
@@ -508,9 +507,19 @@ li {
 		outline: none;
 }
 
-
 input::autofocus {
 		border-color: var(--main-color);
+}
+
+.reserv-button {
+		text-transform: uppercase;
+		margin: 0 40%;
+		border: 1px solid var(--main-color);
+		color: #FFF;
+		background-color: var(--main-color);
+		letter-spacing: 2px;
+		padding: 11px 68px;
+		border-radius: 2px;
 }
 	
 @media only screen and (min-width: 600px) {
