@@ -529,11 +529,88 @@ input::autofocus {
 }
 
 .recipes {
-			width: 100%;
-			color:#000;
-            opacity: 0.5;
+		background: no-repeat 0 -20px url(img/news-bg.jpg);
+		height: 772px;
+		width: 100%;
+		position: absolute;
+}
+
+.recipes-header {
+		width: 720px;
+		height: 167px;
+		color:#000;
+		margin: 80px 165px 64px auto;
+		position: relative;
+		right: 0;
+		left: auto;
 }
 	
+.recipes-content {
+		margin-right: 165px;
+		margin-left: auto;
+		position: absolute;
+		right: 0;
+}
+
+.recipes .menu-stroke, .recipes .menu-subtitle, .recipes .menu-title, .recipes .menu-body {
+		text-align: right;
+		right: 0;
+		left: auto;
+}
+
+.recipes-para {
+		display: flex;
+		justify-content: space-between;
+		height: 90px;
+		width: 922px;
+		line-height: 1.75;
+		font-size: 18px;
+		color: var(--paragraph);
+		margin-right: 165px;
+		margin-bottom: 24px;
+}
+
+.recipes-para-date {
+		text-transform: uppercase;
+		width: 33px;
+		height: 56px;
+		margin-right: 61px;
+		margin-top: -7px;
+		text-align: center;
+		line-height: initial;
+		letter-spacing: 2px;
+		font-size: 18px;
+		flex-shrink: 1;
+		font-weight: 300;
+		color: #383838;
+}
+
+.recipes-para:last-child {
+		margin-bottom: 64px;
+}
+
+.recipes-para-date span {
+		font-size: 28px;
+		font-weight: 700;
+}
+
+.recipes-content .card-body-btn {
+		position: absolute;
+		right: 0;
+		left: auto;
+		margin-top: 0;
+		font-size: 16px;
+}
+
+.recipes-content .card-body-btn::after {
+		margin-left: 17px;
+}
+
+.test {
+	color: red;
+	position: absolute;
+}
+
 @media only screen and (min-width: 600px) {
     html {
         font-size: 16px;
