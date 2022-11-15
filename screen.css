@@ -435,7 +435,10 @@ li {
                 url(img/reservation.jpg) center center / cover no-repeat;
     height: 600px;
     margin: 70px auto 0;
-    width: 100%}
+    width: 100%;
+		position: relative;
+		z-index:1;
+	}
 
 .form-header {
     height: 167px;
@@ -529,10 +532,18 @@ input::autofocus {
 }
 
 .recipes {
-		background: no-repeat 0 -20px url(img/news-bg.jpg);
 		height: 772px;
 		width: 100%;
-		position: absolute;
+		display: flex;
+		justify-content: space-between;
+}
+
+.news-picture {
+		position: relative;
+		height: 589px;
+		width: 480px;
+		top: -25px;
+		left:0;
 }
 
 .recipes-header {
@@ -540,7 +551,7 @@ input::autofocus {
 		height: 167px;
 		color:#000;
 		margin: 80px 165px 64px auto;
-		position: relative;
+		position: absolute;
 		right: 0;
 		left: auto;
 }
@@ -548,8 +559,9 @@ input::autofocus {
 .recipes-content {
 		margin-right: 165px;
 		margin-left: auto;
-		position: absolute;
+		position: relative;
 		right: 0;
+		top:311px;
 }
 
 .recipes .menu-stroke, .recipes .menu-subtitle, .recipes .menu-title, .recipes .menu-body {
