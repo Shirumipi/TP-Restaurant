@@ -555,10 +555,10 @@ input::autofocus {
 }
 	
 .recipes-content {
-		margin-right: 260px;
-		margin-left: auto;
 		position: relative;
-		right: 0;
+		right: auto;
+		display: block;
+		left: -260px;
 		top:311px;
 }
 
@@ -616,9 +616,58 @@ input::autofocus {
 		margin-left: 18px;
 }
 
-.test {
-	color: red;
-	position: absolute;
+.map {
+		background: url("img/google-map.png"); 
+		height: 464px;
+		width: 1442px;
+		margin: 0 auto;
+		position: relative;
+		z-index: 1;
+}
+
+.left-arrow {
+		height: 0;
+		width: 0;
+		border-top: 21px solid transparent;
+		border-bottom: 21px solid transparent;
+		border-right: 21px solid var(--main-color);
+		left: -21px;
+		top: 36px;
+		position: absolute;
+		z-index: 3;
+}
+
+.rectangle-message {
+		position: relative;
+		height: 112px;
+		width: 315px;
+		background-color: var(--main-color);
+		border-radius: 2px;
+		left: 372px;
+		top: 215px;
+		z-index: 2;
+}
+
+.rectangle-message .menu-title {
+		color: #FFF;
+		font-size: 1.125rem;
+		margin: 0 auto;
+		display: block;
+		position: relative;
+		top: 15px;
+}
+
+.rectangle-message .message-para {
+		height: 52px;
+		width: 263px;
+		margin: 18px auto;
+		line-height: 1.625;
+
+}
+
+.rectangle-message .message-span {
+		display: block;
+		text-align: center;
 }
 
 @media only screen and (min-width: 600px) {
