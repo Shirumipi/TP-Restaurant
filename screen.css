@@ -670,6 +670,81 @@ input::autofocus {
 		text-align: center;
 }
 
+footer {
+		height: 325px;
+		width: 100%;
+		background-color: #383838;
+		position: relative;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+}
+
+.splash {
+		height:337px;
+		width: 425px;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+
+.fiasco {
+		height: 125px;
+		width: 445px;
+}
+
+.address{ 
+		height: 125px;
+		width: 254px;
+}
+
+.hours {
+		height: 90px;
+		width: 290px;
+}
+
+.fiasco, .address, .hours {
+		margin-top: 48px;
+}
+
+.fiasco, .address {
+		margin-right: 61px;
+}
+
+.footer-title {
+		display: block;
+		font-size: 1rem;
+		font-weight: 700;
+		color: #C99649;
+		line-height: 2.5;
+		text-transform: uppercase;
+}
+
+.footer-para {
+		display: block;
+		font-size: 1rem;
+		color: #FFF;
+		font-weight: 300;
+		line-height: 1.875;
+}
+
+.copyright {
+		margin-top: 72px;	
+}
+
+.copyright .footer-title {
+		color: #FFF;
+		text-transform: uppercase;
+		font-weight: 400;
+		line-height: 1;
+}
+
+.copyright .footer-title, .copyright .footer-para {
+		display: inline;
+		font-size: 15px;
+}
+
 @media only screen and (min-width: 600px) {
     html {
         font-size: 16px;
