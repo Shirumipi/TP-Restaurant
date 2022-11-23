@@ -542,7 +542,7 @@ input::autofocus {
 		height: 480px;
 		width: 589px;
 		top: -25px;
-		left:0;
+		left:0;;
 }
 
 .recipes-header {
@@ -559,7 +559,7 @@ input::autofocus {
 		position: relative;
 		right: auto;
 		display: block;
-		left: -240px;
+		left: -180px;
 		top:311px;
 }
 
@@ -618,7 +618,7 @@ input::autofocus {
 }
 
 .map {
-		background: url("img/google-map.png"); 
+		background: url("img/google-map.png") center center / cover no-repeat; 
 		height: 464px;
 		width: 1442px;
 		margin: 0 auto;
@@ -884,4 +884,8 @@ footer {
         margin-top: -22px;
         padding-top: 0;
     }
+		
+		.map {
+			width: 100%;
+		}
 }
