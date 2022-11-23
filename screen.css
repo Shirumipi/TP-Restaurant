@@ -534,12 +534,13 @@ input::autofocus {
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
+		overflow: hidden;
 }
 
 .news-picture {
 		position: relative;
-		height: 589px;
-		width: 480px;
+		height: 480px;
+		width: 589px;
 		top: -25px;
 		left:0;
 }
@@ -548,7 +549,7 @@ input::autofocus {
 		width: 720px;
 		height: 167px;
 		color:#000;
-		margin: 80px 405px 64px auto;
+		margin: 80px 150px 64px auto;
 		position: absolute;
 		right: 0;
 		left: auto;
@@ -558,7 +559,7 @@ input::autofocus {
 		position: relative;
 		right: auto;
 		display: block;
-		left: -260px;
+		left: -240px;
 		top:311px;
 }
 
@@ -623,6 +624,7 @@ input::autofocus {
 		margin: 0 auto;
 		position: relative;
 		z-index: 1;
+		overflow: hidden;
 }
 
 .left-arrow {
