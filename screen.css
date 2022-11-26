@@ -885,7 +885,15 @@ footer {
         padding-top: 0;
     }
 		
-		.map {
-			width: 100%;
-		}
+	.map {
+		width: 100%;
+	}
+    
+    .recipes-content{
+        left: -366px;
+    }
+
+    .rectangle-message {
+        left: 305px;
+    }
 }
