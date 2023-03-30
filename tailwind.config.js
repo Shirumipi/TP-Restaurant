@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'header-img': "linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(54,54,54,0.8) 39%, rgba(28,28,28,0.4)), url('/img/salad-chicken.jpg')",
+        'header-img': "linear-gradient(to bottom, rgba(0,0,0,1), rgba(54,54,54,0.8) 39%, rgba(28,28,28,0.4)), url('/img/salad-chicken.jpg')",
       },
       colors: {
         'dark': '#000000eb',
@@ -14,6 +14,10 @@ module.exports = {
       spacing: {
         '1440': '90rem',
         '612': '38.25rem',
+      },
+      fontFamily: {
+        'pinyon': ['pinyon', 'sans-serif'],
+        'source-sans-pro': ['source sans pro', 'sans-serif'],
       },
     },
   },
