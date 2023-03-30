@@ -513,6 +513,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.flex {
+  display: flex;
+}
+
 .table {
   display: table;
 }
@@ -525,8 +529,12 @@ video {
   width: 100%;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .bg-header-img {
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(54,54,54,0.8), rgba(28,28,28,0.4)), url('/img/salad-chicken.jpg');
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(54,54,54,0.8) 39%, rgba(28,28,28,0.4)), url('/img/salad-chicken.jpg');
 }
 
 .bg-cover {
