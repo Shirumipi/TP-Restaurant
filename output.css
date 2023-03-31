@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
+! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -517,22 +517,26 @@ video {
   margin: 0px;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .my-0 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+.ml-\[33px\] {
+  margin-left: 33px;
 }
 
 .mt-5 {
   margin-top: 1.25rem;
 }
 
-.ml-8 {
-  margin-left: 2rem;
+.ml-81 {
+  margin-left: 33px;
 }
 
 .inline-block {
@@ -567,6 +571,27 @@ video {
   justify-content: space-between;
 }
 
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.border-\[1px\] {
+  border-width: 1px;
+}
+
+.border-1 {
+  border-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-primary {
+  --tw-border-opacity: 1;
+  border-color: rgb(200 148 70 / var(--tw-border-opacity));
+}
+
 .bg-header-img {
   background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(54,54,54,0.8) 39%, rgba(28,28,28,0.4)), url('/img/salad-chicken.jpg');
 }
@@ -583,14 +608,44 @@ video {
   background-repeat: no-repeat;
 }
 
-.py-\[33px\] {
-  padding-top: 33px;
-  padding-bottom: 33px;
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-2\.5 {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
 }
 
 .px-\[20px\] {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-1\.75 {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.py-\[33px\] {
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-81 {
+  padding-top: 33px;
+  padding-bottom: 33px;
 }
 
 .text-center {
@@ -623,7 +678,25 @@ video {
   letter-spacing: 2px;
 }
 
+.tracking-2 {
+  letter-spacing: 2px;
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(200 148 70 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:bg-primary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(200 148 70 / var(--tw-bg-opacity));
+}
+
+.hover\:duration-300:hover {
+  transition-duration: 300ms;
 }
