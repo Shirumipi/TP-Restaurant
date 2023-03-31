@@ -9,9 +9,6 @@ module.exports = {
       colors: {
         'primary': '#c89446',
         'paragraph': '#6f6f6f',
-        'dark': '#000000eb',
-        'grey': '#36363680',
-        'greyish': '#1c1c1c66',
       },
       spacing: {
         '1440': '90rem',
@@ -19,17 +16,30 @@ module.exports = {
       },
       letterSpacing: {
         '2': '2px',
+        '4': '4px',
+        '13': '13px',
+        '50': '50px',
       },
       fontFamily: {
-        'pinyon': ['pinyon', 'sans-serif'],
+        'pinyon': ['Pinyon Script', 'sans-serif'],
         'source-sans-pro': ['source sans pro', 'sans-serif'],
       },
+      fontSize: {
+        '24': '24px',
+        '68': '68px',
+      },
       margin: {
-        '81': '33px',
+        '5': '5px',
+        '9': '9px',
+        '33': '33px',
+        '50': '50px',
+        '70': '70px', 
       },
       padding: {
         '1.75': '7px',
-        '81': '33px',
+        '33': '33px',
+        '98': '98px',
+        '170': '170px',
       },
       borderWidth: {
         '1': '1px',
