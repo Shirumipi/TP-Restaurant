@@ -580,8 +580,8 @@ video {
   margin-top: -20px;
 }
 
-.mb-90 {
-  margin-bottom: 90px;
+.mb-130 {
+  margin-bottom: 130px;
 }
 
 .ml-\[44px\] {
@@ -604,32 +604,12 @@ video {
   margin-bottom: 16px;
 }
 
-.mb-\[10px\] {
-  margin-bottom: 10px;
-}
-
 .mb-\[8px\] {
   margin-bottom: 8px;
 }
 
-.mb-\[2px\] {
-  margin-bottom: 2px;
-}
-
-.-mb-\[2px\] {
-  margin-bottom: -2px;
-}
-
-.-mb-\[8px\] {
-  margin-bottom: -8px;
-}
-
-.-mb-\[12px\] {
-  margin-bottom: -12px;
-}
-
-.-mb-\[16px\] {
-  margin-bottom: -16px;
+.mr-28 {
+  margin-right: 28px;
 }
 
 .block {
@@ -668,6 +648,10 @@ video {
   height: 2px;
 }
 
+.h-328 {
+  height: 328px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -697,6 +681,14 @@ video {
   width: 100px;
 }
 
+.w-1013 {
+  width: 1013px;
+}
+
+.w-540 {
+  width: 540px;
+}
+
 .max-w-\[1110px\] {
   max-width: 1110px;
 }
@@ -715,6 +707,10 @@ video {
 
 .items-baseline {
   align-items: baseline;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -748,6 +744,10 @@ video {
 
 .bg-header-img {
   background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(54,54,54,0.8) 39%, rgba(28,28,28,0.4)), url('/img/salad-chicken.jpg');
+}
+
+.bg-tutorial {
+  background-image: linear-gradient(to bottom, rgba(28,28,28,0.6), rgba(28,28,28,0.6)), url('/img/tutorial.jpg');
 }
 
 .bg-cover {
@@ -823,6 +823,10 @@ video {
 
 .align-top {
   vertical-align: top;
+}
+
+.align-text-top {
+  vertical-align: text-top;
 }
 
 .font-source-sans-pro {
