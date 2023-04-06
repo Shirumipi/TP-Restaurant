@@ -5,13 +5,18 @@ module.exports = {
     extend: {
       backgroundImage: {
         'header-img': "linear-gradient(to bottom, rgba(0,0,0,1), rgba(54,54,54,0.8) 39%, rgba(28,28,28,0.4)), url('/img/salad-chicken.jpg')",
-        'tutorial': "linear-gradient(to bottom, rgba(28,28,28,0.7), rgba(28,28,28,0.7)), url('/img/tutorial.jpg')",
+        'tutorial': "linear-gradient(to bottom, rgba(0,0,0,0.7) 5%, rgba(54,54,54,0.7) 20%, rgba(54,54,54,0.7)), url('/img/tutorial.jpg')",
         'play-btn': "url('/img/play.png')",
+      },
+      boxShadow: {
+        'tutorial': '0 0 30px 15px rgba(127,127,127,0.5)',
       },
       colors: {
         'primary': '#c89446',
         'paragraph': '#6f6f6f',
         'normal': '#383838',
+        'grey': '#979797',
+        'tuto': '#1c1c1c',
       },
       spacing: {
         '1440': '90rem',
