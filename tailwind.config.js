@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'header-img': "linear-gradient(to bottom, rgba(0,0,0,1), rgba(54,54,54,0.8) 39%, rgba(28,28,28,0.4)), url('/img/salad-chicken.jpg')",
-        'tutorial': "linear-gradient(to bottom, rgba(28,28,28,0.6), rgba(28,28,28,0.6)), url('/img/tutorial.jpg')",
+        'tutorial': "linear-gradient(to bottom, rgba(28,28,28,0.7), rgba(28,28,28,0.7)), url('/img/tutorial.jpg')",
+        'play-btn': "url('/img/play.png')",
       },
       colors: {
         'primary': '#c89446',
