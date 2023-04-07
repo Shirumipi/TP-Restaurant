@@ -6,9 +6,12 @@ module.exports = {
       backgroundImage: {
         'header-img': "linear-gradient(to bottom, rgba(0,0,0,1), rgba(54,54,54,0.8) 39%, rgba(28,28,28,0.4)), url('/img/salad-chicken.jpg')",
         'tutorial': "linear-gradient(to bottom, rgba(0,0,0,0.7) 5%, rgba(54,54,54,0.7) 20%, rgba(54,54,54,0.7)), url('/img/tutorial.jpg')",
-        'play-btn': "url('/img/play.png')",
-        'amazing-chicken': "url('/img/crusted-chicken.jpg')",
-        'apples': "url('apples.png')",
+        'play-btn': "url('/img/play-btn.png')",
+        'amazing-chicken': "url('/img/crusted-chicken-125.png')",
+        'apples': "url('/img/apples.png')",
+        'shape': "url('/img/Shape.png')",
+        'ofull': "url('/img/oval-full.png')",
+        'oempty': "url('/img/oval-empty.png')",
       },
       boxShadow: {
         'tutorial': '0 0 30px 15px rgba(127,127,127,0.5)',
@@ -37,6 +40,7 @@ module.exports = {
       fontSize: {
         '24': '24px',
         '28': '28px',
+        '38': '38px',
         '40': '40px',
         '68': '68px',
         listBase: ['16px','3.125'],
@@ -46,7 +50,7 @@ module.exports = {
         '328': '328px',
         '425': '425px',
         '455': '455px',
-        '712': '712px',
+        '710': '710px',
       },
       margin: {
         '5': '5px',
@@ -66,14 +70,17 @@ module.exports = {
       },
       padding: {
         '1.75': '7px',
+        '9': '9px',
         '33': '33px',
         '98': '98px',
         '170': '170px',
       },
       width: {
         '219': '219px',
+        '275': '275px',
         '350': '350px',
         '445': '445px',
+        '553': '553px',
         '540': '540px',
         '919': '919px',
         '1013': '1013px',
