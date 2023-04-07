@@ -7,6 +7,8 @@ module.exports = {
         'header-img': "linear-gradient(to bottom, rgba(0,0,0,1), rgba(54,54,54,0.8) 39%, rgba(28,28,28,0.4)), url('/img/salad-chicken.jpg')",
         'tutorial': "linear-gradient(to bottom, rgba(0,0,0,0.7) 5%, rgba(54,54,54,0.7) 20%, rgba(54,54,54,0.7)), url('/img/tutorial.jpg')",
         'play-btn': "url('/img/play.png')",
+        'amazing-chicken': "url('/img/crusted-chicken.jpg')",
+        'apples': "url('apples.png')",
       },
       boxShadow: {
         'tutorial': '0 0 30px 15px rgba(127,127,127,0.5)',
@@ -44,6 +46,7 @@ module.exports = {
         '328': '328px',
         '425': '425px',
         '455': '455px',
+        '712': '712px',
       },
       margin: {
         '5': '5px',
@@ -74,6 +77,7 @@ module.exports = {
         '540': '540px',
         '919': '919px',
         '1013': '1013px',
+        '1028': '1028px',
       },
       borderWidth: {
         '1': '1px',
