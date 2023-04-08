@@ -12,12 +12,14 @@ module.exports = {
         'shape': "url('/img/Shape.png')",
         'ofull': "url('/img/oval-full.png')",
         'oempty': "url('/img/oval-empty.png')",
+        'splash': "url('/img/splash.png')",
       },
       boxShadow: {
         'tutorial': '0 0 30px 15px rgba(127,127,127,0.5)',
       },
       colors: {
         'primary': '#c89446',
+        'secondary': '#c99649',
         'paragraph': '#6f6f6f',
         'normal': '#383838',
         'grey': '#979797',
