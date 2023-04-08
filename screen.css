@@ -846,7 +846,7 @@ footer {
    }
 
     .card-picture-right {
-        background: url(img/crusted-chicken.jpg);
+        background: url(img/crusted-chicken-nm.jpg);
         order: 2;
         transform: translate(-30px,30px);
     }
