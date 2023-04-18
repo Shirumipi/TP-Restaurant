@@ -55,6 +55,9 @@ module.exports = {
         '9': '9px',
         '33': '33px',
       },
+      screens: {
+        'desktop': '1440px',
+      },
       width: {
         '275': '275px',
         '350': '350px',
